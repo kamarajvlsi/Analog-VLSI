@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design {Cascode Amplifier} -cell Cell0 -type schematic -newwindow
+window move -left 130 -top 130 -width 721 -height 321 -undock -max 
+window fit -x0 75 -y0 1767 -x1 7347 -y1 5515 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user -encoding utf-8
+source open.design -relativeto design -encoding utf-8

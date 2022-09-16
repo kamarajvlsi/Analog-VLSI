@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design {Current Mirror} -cell Cell4 -type schematic -newwindow
+window move -left 130 -top 130 -width 721 -height 321 -undock -max 
+window fit -x0 741 -y0 2277 -x1 6354 -y1 5004 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user -encoding utf-8
+source open.design -relativeto design -encoding utf-8
