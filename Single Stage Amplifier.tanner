@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design {Single Stage current mirror} -cell Cell5 -type schematic -newwindow
+window move -left 156 -top 156 -width 721 -height 321 -undock -max 
+window fit -x0 -278 -y0 2207 -x1 7758 -y1 6349 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user -encoding utf-8
+source open.design -relativeto design -encoding utf-8
