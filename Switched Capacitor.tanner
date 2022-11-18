@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design {Switched Capacitor} -cell Cell0 -type schematic -newwindow
+window move -left 0 -top 0 -width 812 -height 328 -undock -max 
+window fit -x0 -514 -y0 1265 -x1 6535 -y1 6420 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user -encoding utf-8
+source open.design -relativeto design -encoding utf-8

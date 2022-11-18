@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design {differential amplifier} -cell dm -type schematic -newwindow
+window move -left 22 -top 29 -width 491 -height 343 -undock -max 
+window fit -x0 403 -y0 923 -x1 8503 -y1 6914 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user
+source open.design -relativeto design

@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design Opamp -cell Cell2 -type schematic -newwindow
+window move -left 125 -top 125 -width 727 -height 328 -undock -max 
+window fit -x0 -20 -y0 -152 -x1 439 -y1 184 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user -encoding utf-8
+source open.design -relativeto design -encoding utf-8
